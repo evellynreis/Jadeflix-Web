@@ -18,9 +18,6 @@
 
 <body>
 
-  <div class="container-fluid">
-    <div class="row flex-nowrap">
-
       <?php include __DIR__ . '/../components/menu/menu.html'; ?>
 
       <div class="col py-3">
@@ -37,9 +34,9 @@
           </li>
         </ul>
       </div>
-
+<!-- 
     </div>
-  </div>
+  </div> -->
 
 </body>
 
