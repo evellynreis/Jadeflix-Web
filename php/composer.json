@@ -1,0 +1,20 @@
+{
+    "name": "vendor_name/jadeflix",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "description": "jadeflix",
+    "authors": [
+        {
+            "name": "Evellyn Jade",
+            "email": "jadevellyn@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "JadeFlix\\Site\\" :  "src/"
+        }
+      },
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
