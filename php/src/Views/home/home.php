@@ -16,27 +16,19 @@
 
 </head>
 
-<body>
+<body class="d-flex">
 
-      <?php include __DIR__ . '/../components/menu/menu.html'; ?>
-
-      <div class="col py-3">
-        <h3>Left Sidebar with Submenus</h3>
-        <p class="lead">
-          An example 2-level sidebar with collasible menu items. The menu functions like an "accordion" where only a
-          single
-          menu is be open at a time. While the sidebar itself is not toggle-able, it does responsively shrink in width
-          on
-          smaller screens.</p>
-        <ul class="list-unstyled">
-          <li>
-            <h5>Responsive</h5> shrinks in width, hides text labels and collapses to icons only on mobile
-          </li>
-        </ul>
+  <!-- Conteúdo do menu -->
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+        <?= file_get_contents(__DIR__ . '/../components/menu/menu.html'); ?>
       </div>
-<!-- 
+      <div class="col py-3">
+        <?php include __DIR__ . '/../components/api/api.php'; ?>
+      </div>
     </div>
-  </div> -->
+  </div>
 
 </body>
 
