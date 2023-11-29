@@ -17,7 +17,6 @@
 </head>
 
 <body class="d-flex">
-
   <!-- Conteúdo do menu -->
   <div class="container-fluid">
     <div class="row flex-nowrap">
