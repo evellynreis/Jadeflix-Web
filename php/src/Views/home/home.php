@@ -17,17 +17,16 @@
 </head>
 
 <body class="d-flex">
-  <!-- Conteúdo do menu -->
   <div class="container-fluid">
     <div class="row flex-nowrap">
       <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
         <?= file_get_contents(__DIR__ . '/../components/menu/menu.html'); ?>
       </div>
-      <div class="col py-3">
-        <?php include __DIR__ . '/../components/api/api.php'; ?>
+      <div class='content-home'>
+        <?= file_get_contents(__DIR__ . '/../components/dark/dark.html'); ?>
+        <?php include_once __DIR__ . '/../components/api/api.php' ?>
       </div>
     </div>
-  </div>
 
 </body>
 

@@ -1,5 +1,5 @@
 <?php
-require_once('vendor/autoload.php');
+require __DIR__ . '/../../../../vendor/autoload.php';
 
 $client = new \GuzzleHttp\Client();
 
@@ -42,6 +42,7 @@ $data = json_decode($response->getBody(), true);
                         <p class="card-text">
                             <?php echo $movie['overview'] ?>
                         </p>
+                        <a href="#" class="btn btn-primary">Assistir</a>
                         <a href="#" class="btn btn-primary">Assistir</a>
                     </div>
                 </div>
