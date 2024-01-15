@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.components-home {
+    display: flex;
+}
+
+.components-menu {
+    width: 200px;
+}
+
+.components-content {
+    flex: 1;
+    padding: 40px;
+    box-sizing: border-box;
+}
